@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="ACTION">
+        <menu>
+            <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+
+
+        android:title="HOME"/>
+
+-T    <item
+        android:id="@+id/notification_background"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+
+        android:title="NOTIFICATION"/>
+
+
+    <item
+        android:id="@+id/locale"
+        android:icon="@drawable/ic_baseline_message_24"
+
+        android:title="LOCAL SITES"/>
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+
+
+
+    <item android:title="ACTION">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/favorite"
+                    android:icon="@drawable/ic_baseline_star_24"
+                    app:showAsAction="always"
+                    android:title="TRAVEL WISHLIST"/>
+
+                <item
+                    android:id="@+id/message1"
+                    android:icon="@drawable/ic_baseline_message_24"
+                    app:showAsAction="always"
+                    android:title="MESSAGE"/>
+
+                <item
+                    android:id="@+id/plan"
+                    android:icon="@drawable/ic_baseline_airplane_ticket_24"
+                    app:showAsAction="always"
+                    android:title="PLAN EVENT"/>
+
+                <item
+                    android:id="@+id/show"
+                    android:icon="@drawable/ic_baseline_slideshow_24"
+                    app:showAsAction="always"
+                    android:title="SHOW EVENTS"/>
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="ACTION">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+                    app:showAsAction="always"
+                    android:title="PROFILE"/>
+
+
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    app:showAsAction="always"
+                    android:title="LOG OUT"/>
+
+
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>
