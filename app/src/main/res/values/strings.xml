@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">locinder</string>
+
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Counties">
+        <item>SELECT COUNTY</item>
+        <item> Nairobi </item>
+
+        <item> Kiambu </item>
+
+        <item>  Nakuru </item>
+
+        <item> Kakamega </item>
+
+        <item>  Bungoma </item>
+
+        <item> Meru </item>
+
+        <item> Kilifi </item>
+
+        <item>  Machakos </item>
+
+        <item>  Kisii </item>
+
+        <item>  Mombasa </item>
+
+
+    </string-array>
+
+    <string-array name="Locations">
+        <item>SELECT LOCATION</item>
+        <item>  Amboseli National Park</item>
+        <item>  Tsavo East National Park</item>
+        <item> Lake Nakuru</item>
+        <item> Nairobi National Park</item>
+        <item>  Mount Kenya</item>
+        <item>  Hells Gate National Park</item>
+        <item>  Tsavo West National Park</item>
+        <item>   Diani Beach</item>
+        <item>   Giraffe Centre</item>
+        <item>    Aberdare National Park</item>
+        <item>   Ol Pejeta Conservancy</item>
+        <item>  Meru National Park</item>
+        <item>  Karen Blixen Museum</item>
+        <item>  The Kenya Museum Society</item>
+        <item>  Shimba Hills National Reserve</item>
+        <item>  Lewa Wildlife Conservancy</item>
+        <item>   Bomas Of Kenya</item>
+        <item>   Lake Bogoria</item>
+        <item>    Mount Longonot</item>
+        <item> Haller Park</item>
+        <item>  Karura Forest</item>
+        <item>   Ngong Hills</item>
+        <item>  Lake Elmenteita</item>
+        <item>Buffalo Springs National Reserve</item>
+        <item>  Kakamega Forest</item>
+        <item>  Wasini Island</item>
+        <item>   Shaba National Reserve</item>
+        <item>    Sheldrick Elephant Orphanage</item>
+        <item>  The Maasai Market</item>
+        <item>   Watamu Beach</item>
+        <item>   Gede Ruins Malindi</item>
+        <item>     Snake Park</item>
+        <item>     Ruma National Park</item>
+        <item>     Malindi marine boat excursions</item>
+        <item>     The Nairobi Railway Museum</item>
+        <item>     Cresent Island</item>
+        <item>     Nyali Beach</item>
+
+
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="directionsApiKey">AIzaSyB91uQ_l-XjAGucDWEhFuZxRf44FnuymhM</string>
+
+</resources>

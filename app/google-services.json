@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "924681546696",
+    "project_id": "locinder",
+    "storage_bucket": "locinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924681546696:android:565bbd8b3d33250714eefd",
+        "android_client_info": {
+          "package_name": "com.example.locinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924681546696-u4n6igl8gv4abcq423souroatqf54i1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locinder",
+            "certificate_hash": "33680226be7be5d238a4dd321c344b2523ec18b5"
+          }
+        },
+        {
+          "client_id": "924681546696-vau0rqrer4oc4favke97sjsnhforicrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVVPL2bcNBS3mDtmrzY0y99mNiUA7tKt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924681546696-vau0rqrer4oc4favke97sjsnhforicrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

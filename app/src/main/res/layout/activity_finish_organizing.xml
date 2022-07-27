@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".Presentation.FinishOrganizing"
+   >
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+
+            android:elevation="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/tourist"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHOOSE MEETUP DATE"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/choosePhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PHOTO LINK"
+                    android:textSize="0.1dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+
+    <EditText
+            android:id="@+id/chooselocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Choose Location"
+            android:textColorHint="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/choosedate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:hint="Excursion Date"
+            android:textColorHint="@color/black"
+            android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/people"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:hint="SEATS RESERVED"
+                    android:inputType="phone"
+                    android:textColorHint="@color/black"
+                    android:textSize="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:hint="PRICE"
+                    android:inputType="phone"
+                    android:textColorHint="@color/black"
+                    android:textSize="30dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/setup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginTop="35dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:text="SET UP"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
